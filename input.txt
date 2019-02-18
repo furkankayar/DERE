@@ -1,0 +1,112 @@
+﻿addAgency;Center Office;21 Sokak No:50;Buca;Izmir;02324449988
+addAgency;Istanbul Office;34 Sokak No:109;Sariyer;Istanbul;02123296600
+addAgency;Ankara Office;Fevzi Cakmak Sokak No:17;Kizilay;Ankara;03123909098
+addAgency;Antalya Office;Caglayan Sokak No:11;Muratpasa;Antalya;02423111262
+displayAgencies
+addAgent;1;Burcu Fidan;29/05/1988;Ataturk Caddesi No:3 D:4;Konak;Izmir;05556667777;Bayan
+addAgent;1;Adem Deniz;15/06/1960;220 Sokak No:50;Karsiyaka;Izmir;05556667776;Erkek
+addAgent;2;Bahar Korkmaz;28/11/1978;54 Sokak No:11;Maltepe;Istanbul;05546578889;Bayan
+addAgent;1;Canan Gul;01/07/1968;Hatay Caddesi No:22;Karsiyaka;Izmir;05456875454;Bayan
+addAgent;3;Burak unsal;15/08/1977;364 Sokak No:45;Kizilay;Ankara;05556665588;Erkek
+addAgent;3;Deniz Ince;25/09/1975;320 Sokak No:889;Emek;Ankara;05556668787;Erkek
+addAgent;4;Ahmet Kanmaz;05/10/1985;14 Sokak No:1;Muratpasa;Antalya;05556658999;Erkek
+addAgent;1;Esra Basar;12/06/1986;45 Sokak No:50;Bornova;Izmir;05458882200;Bayan
+addAgent;2;Nilay Caliskan;09/07/1989;200 Sokak No:55;Esenboga;Istanbul;05365242424;Bayan
+addAgent;3;Adem Deniz;02/08/1973;1969 Sokak No:78;Cankaya;Ankara;05352122211;Erkek
+addAgent;4;Sevil Gulcan;10/11/1965;1050 Sokak No:23;Muratpasa;Antalya;05556574422;Bayan
+addAgent;4;Adem Deniz;06/10/1975;Portakal Sokak No:11;Alanya;Antalya;05545366633;Erkek
+deleteAgent;100
+displayAgents
+deleteAgent;11
+displayAgents
+addRealEstate;Flat;For Rent;Menderes Caddesi No:20;Buca;Izmir;120;1400;4
+addRealEstate;Villa;For Rent;231 Sokak. No:30/3;Urla;Izmir;80;1500;5
+addRealEstate;Villa;For Rent;Ataturk Caddesi No:20/4;Kepez;Antalya;150;1400;5
+addRealEstate;Flat;For Rent;Kizilay Sokak. No:23/2;Kizilay;Ankara;90;1550;3
+addRealEstate;Farmhouse;For Rent;196 Sokak. No:20/10;Buca;Izmir;110;2000;4
+addRealEstate;Villa;For Rent;Alsancak Caddesi No:4;Urla;Izmir;75;1200;2
+addRealEstate;Office;For Sale;Baskent Sokak. No:30/3;Cankaya;Ankara;85;250000;3
+addRealEstate;Flat;For Sale;Meydan Sokak. No:45/5;Kizilay;Ankara;70;150000;2
+addRealEstate;Flat;For Sale;Ata Sokak. No:9;Atasehir;Istanbul;170;280000;5
+addRealEstate;Flat;For Rent;63 Sokak. No:77/9;Avcilar;Istanbul;75;1500;2
+addRealEstate;Villa;For Rent;237 Sokak. No:3/2;Urla;Izmir;90;1100;6
+addRealEstate;Summer Villa;For Rent;235 Sokak. No:27/1;Cankaya;Ankara;110;3000;4
+addRealEstate;Flat;For Sale;721 Sokak. No:19;Bagcilar;Istanbul;100;125000;3
+addRealEstate;Farmhouse;For Rent;750 Sokak. No:17/8;Belek;Antalya;95;1500;3
+addRealEstate;Office;For Sale;1756 Sokak. No:7/5;Kepez;Antalya;70;100000;2
+addRealEstate;Farmhouse;For Sale;75 Sokak. No:72/3;Bornova;Izmir;135;210000;4
+addRealEstate;Office;For Rent;21 Sokak. No:77/1;Buca;Izmir;100;1500;3
+addRealEstate;Flat;For Rent;23 Sokak. No:60/7;Muratpasa;Antalya;70;1400;2
+addRealEstate;Flat;For Sale;56 Sokak. No:6/2;Kizilay;Ankara;65;1700;2
+addRealEstate;Summer Villa;For Rent;54 Sokak. No:54;Bornova;Izmir;120;200000;3
+addRealEstate;Flat;For Rent;98 Sokak. No:5/4;Basaksehir;Istanbul;125;1350;3
+addRealEstate;Flat;For Sale;Moda Caddesi No:33;Beyoglu;Istanbul;175;270000;5
+addRealEstate;Villa;For Rent;271 Sokak. No:27/1;Urla;Izmir;80;1500;5
+addRealEstate;Flat;For Rent;243 Sokak. No:21;Urla;Izmir;85;1800;2
+addRealEstate;Office;For Sale;85 Sokak. No:1856/12;Cankaya;Ankara;75;120000;2
+addRealEstate;Farmhouse;For Rent;Okul Caddesi No:1976;Kepez;Antalya;135;2000;4
+addRealEstate;Office;For Rent;987 Sokak. No:12/6;Buca;Izmir;120;1500;4
+addRealEstate;Flat;For Rent;654 Sokak. No:14/5;Karabaglar;Izmir;80;1370;2
+addRealEstate;Flat;For Rent;321 Sokak. No:15/3;Urla;Izmir;90;1600;2
+addRealEstate;Flat;For Rent;852 Sokak. No:5/3;Beykoz;Istanbul;140;2500;5
+addRealEstate;Flat;For Rent;741 Sokak. No:5/1;Beykoz;Istanbul;80;1750;2
+addRealEstate;Summer Villa;For Rent;963 Sokak. No:10;Belek;Antalya;100;2100;4
+addRealEstate;Flat;For Rent;159 Sokak. No:12/4;Buca;Izmir;80;1400;2
+addRealEstate;Farmhouse;For Rent;753 Sokak. No:22/2;Cankaya;Ankara;95;1700;3
+addRealEstate;Office;For Rent;357 Sokak. No:50;Konak;Izmir;85;1650;2
+addRealEstate;Flat;For Rent;684 Sokak. No:15/5;Avcilar;Istanbul;80;1400;2
+addRealEstate;Office;For Rent;103 Sokak. No:15/7;Cankaya;Ankara;100;1300;3
+addRealEstate;Flat;For Rent;624 Sokak. No:21;Polatli;Ankara;95;1500;3
+addRealEstate;Flat;For Rent;486 Sokak. No:14/2;Beyoglu;Istanbul;80;1450;2
+addRealEstate;Summer Villa;For Rent;651 Sokak. No:14/1;Urla;Izmir;125;2300;4
+addRealEstate;Office;For Rent;Raufbey Sokak. No:1960;Kepez;Antalya;130;1320;4
+addRealEstate;Summer Villa;For Rent;121 Sokak. No:14/2;Konak;Izmir;175;1550;5
+addRealEstate;Flat;For Rent;Adatepe Sokak. No:5;Buca;Izmir;95;1500;3
+deleteRealEstate,3
+displayRealEstates
+search;Flat;For Rent;Buca;Izmir;100-200;1000-1600;3-5
+search;Villa;For Rent;Urla;Izmir;;;4-6
+search;Flat;;;Istanbul;100-160;;3-5
+search;;;;;;;
+addCustomer;Fatih Eren;25/10/1983;341 Sokak No:5/7;Cankaya;Izmir;05447778888;Erkek
+addCustomer;Canan Yasar;15/11/1985;127 Sokak No:14 D:3;Kizilay;Ankara;05448886655;Bayan
+addCustomer;Serpil safak;12/12/1972;158 Sokak No:15/3;Cigli;Izmir;05448856524;Bayan
+addCustomer;Sevda Nadir;27/03/1970;Mithatpasa Caddesi No:180/4;Balcova;Izmir;05544252525;Erkek
+addCustomer;Ediz Esen;07/05/1965;14 Sokak No:26/7;Mamak;Ankara;05565462211;Erkek
+addCustomer;Fatma Yilmaz;13/07/1957;25 Sokak No:56/8;Aksu;Antalya;05545474744;Bayan
+addCustomer;Ahmet Bilir;09/08/1985;Kordon Caddesi No:75/2;Atasehir;Istanbul;05456522020;Erkek
+addCustomer;Candan Kas;14/10/1975;123 Sokak No:96/8;umraniye;Istanbul;05541231212;Bayan
+addCustomer;Ilker Yildirim;06/09/1978;27 Sokak No:35/9;Beykoz;Istanbul;05442001030;Erkek
+addCustomer;Sibel Ay;29/01/1980;Yaz Caddesi No:12/4;Manavgat;Antalya;05457882233;Bayan
+addCustomer;Gulay Uz;29/01/1980;45 Sokak No:17/4;Manavgat;Antalya;05457882233;Bayan
+addCustomer;Murat Kaya;12/01/1970;Deniz Caddesi No:17/4;Kadikoy;Istanbul;05457882233;Erkek
+addCustomer;Cem Bilir;29/01/1980;45 Sokak No:17/4;Akyurt;Ankara;05457882233;Erkek
+addCustomer;Yesim Yilmaz;12/03/1950;45 Sokak No:17/4;Ulus;Ankara;05457882233;Bayan
+addCustomer;Yavuz Tek;16/11/1978;45 Sokak No:17/4;Akyurt;Ankara;05457882233;Erkek
+addCustomer;Yeliz Sari;29/02/1985;45 Sokak No:17/4;Ulus;Ankara;05457882233;Bayan
+deleteCustomer;2
+displayCustomers
+addContract;9;1;3;02/12/2018
+addContract;9;10;3;07/12/2018
+addContract;4;11;7;10/12/2018
+addContract;1;3;1;12/12/2018
+addContract;20;12;2;14/12/2018
+addContract;10;100;2;14/12/2018
+addContract;15;4;7;25/12/2018
+addContract;5;4;1;30/12/2018 
+addContract;27;6;3;30/12/2018 
+addContract;23;6;3;30/12/2018 
+addContract;12;7;100;05/01/2019
+addContract;22;9;3;12/01/2019
+addContract;30;5;9;14/01/2019
+addContract;100;11;5;17/01/2019
+addContract;28;8;1;17/01/2019
+addContract;24;7;4;20/01/2019
+addContract;14;5;10;28/01/2019
+addContract;18;6;7;30/01/2019
+displayContracts
+calculateSalaries;12/2018
+calculateSalaries;01/2019
+calculateTotalIncome;01/2019
+mostProfitableAgency;12/2018
+agentOfTheMonth;12/2018

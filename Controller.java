@@ -9,21 +9,20 @@ import java.util.ArrayList;
 
 public class Controller{
 
-  private final String FILENAME;
+
   private ArrayList<String> commands;
 
 
-  public Controller(String fileName){
+  public Controller(){
 
-    this.FILENAME = fileName;
     commands = new ArrayList<String>();
 
   }
 
 
-  public void readFile() throws FileNotFoundException, IOException{
+  public void readFile(String fileName) throws FileNotFoundException, IOException{
 
-    BufferedReader br = new BufferedReader(new FileReader(new File(FILENAME)));
+    BufferedReader br = new BufferedReader(new FileReader(new File(fileName)));
 
     String row = null;
     while((row = br.readLine()) != null){
@@ -32,7 +31,7 @@ public class Controller{
   }
 
 
-  public void executeCommands(){
+  public void executeFileCommands(){
 
     for(String command: commands){
 
@@ -43,31 +42,9 @@ public class Controller{
 
   public static void main(String[] args){
 
-    Controller controller = new Controller("input.txt");
-    Exception exception = null;
-    try{
-      controller.readFile();
+    Controller controller = new Controller();
 
-    }
-    catch(FileNotFoundException e){
-      System.out.println("Given file does not exist.");
-      exception = e;
-    }
-    catch(IOException e){
-      System.out.println("An error occured while reading the lines.");
-      exception = e;
-    }
-    finally{
 
-      if( exception == null ){
-
-        controller.executeCommands();
-      }
-      else{
-
-        //Initialize the consoleUI
-      }
-    }
   }
 
 

@@ -7,12 +7,12 @@ public class Agent extends Customer{
 
   private static int autoincrement = 1;
 
-  public Agent(String name, Agency agency, String birthdate,
-                String address, String phone, String gender, double salary ){
-                  
+  public Agent(Agency agency, String name, String birthdate,
+                Address address, String phone, String gender ){
+
     super(autoincrement++, name, birthdate, address, phone, gender);
     this.agency = agency;
-    this.salary = salary;
+    this.salary = 2000.00;
 
   }
 

@@ -4,25 +4,26 @@ public class RealEstate{
   private int id;
   private String type;
   private String status;
-  private String availability;
-  private String address;
+  private boolean availability;
+  private Address address;
   private int surfaceArea;
   private double price;
   private int roomNumber;
 
+
   private static int autoincrement = 1;
 
-  public RealEstate(String type, String status, String availability, String address,
+  public RealEstate(String type, String status, Address address,
                       int surfaceArea, double price, int roomNumber){
 
     this.type = type;
     this.status = status;
-    this.availability = availability;
+    this.availability = true;
     this.address = address;
     this.surfaceArea = surfaceArea;
     this.price = price;
     this.roomNumber = roomNumber;
-    this.id = autoincrement;
+    this.id = autoincrement++;
   }
 
   public int getId(){
@@ -34,10 +35,10 @@ public class RealEstate{
   public String getStatus(){
     return this.status;
   }
-  public String getAvailability(){
+  public boolean isAvailable(){
     return this.availability;
   }
-  public String getAddress(){
+  public Address getAddress(){
     return this.address;
   }
   public int getSurfaceArea(){

@@ -4,12 +4,12 @@ public class Agency{
 
   private int id;
   private String name;
-  private String address;
+  private Address address;
   private String phone;
 
   private static int autoincrement = 1;
 
-  public Agency(String name, String address, String phone){
+  public Agency(String name, Address address, String phone){
 
     this.name = name;
     this.address = address;
@@ -23,12 +23,17 @@ public class Agency{
   public String getName(){
     return this.name;
   }
-  public String getAddress(){
+  public Address getAddress(){
     return this.address;
   }
   public String getPhone(){
     return this.phone;
   }
 
+  @Override
+  public String toString(){
+
+    return "Name: " + this.name + " " + this.address + " Phone: " + this.phone;  
+  }
 
 }

@@ -1,2 +1,2 @@
 # DERE
-Project Based Learning II Project I DERE 
+Dokuz Eylul Real Estate Project

@@ -1,4 +1,4 @@
-﻿addAgency;Center Office;21 Sokak No:50;Buca;Izmir;02324449988
+addAgency;Center Office;21 Sokak No:50;Buca;Izmir;02324449988
 addAgency;Istanbul Office;34 Sokak No:109;Sariyer;Istanbul;02123296600
 addAgency;Ankara Office;Fevzi Cakmak Sokak No:17;Kizilay;Ankara;03123909098
 addAgency;Antalya Office;Caglayan Sokak No:11;Muratpasa;Antalya;02423111262
@@ -15,6 +15,7 @@ addAgent;2;Nilay Caliskan;09/07/1989;200 Sokak No:55;Esenboga;Istanbul;053652424
 addAgent;3;Adem Deniz;02/08/1973;1969 Sokak No:78;Cankaya;Ankara;05352122211;Erkek
 addAgent;4;Sevil Gulcan;10/11/1965;1050 Sokak No:23;Muratpasa;Antalya;05556574422;Bayan
 addAgent;4;Adem Deniz;06/10/1975;Portakal Sokak No:11;Alanya;Antalya;05545366633;Erkek
+addAgent;100;Burcu Fidan;29/05/1988;Ataturk Caddesi No:3 D:4;Konak;Izmir;05556667777;Bayan
 deleteAgent;100
 displayAgents
 deleteAgent;11
@@ -93,9 +94,9 @@ addContract;1;3;1;12/12/2018
 addContract;20;12;2;14/12/2018
 addContract;10;100;2;14/12/2018
 addContract;15;4;7;25/12/2018
-addContract;5;4;1;30/12/2018 
-addContract;27;6;3;30/12/2018 
-addContract;23;6;3;30/12/2018 
+addContract;5;4;1;30/12/2018
+addContract;27;6;3;30/12/2018
+addContract;23;6;3;30/12/2018
 addContract;12;7;100;05/01/2019
 addContract;22;9;3;12/01/2019
 addContract;30;5;9;14/01/2019

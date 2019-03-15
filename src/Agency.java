@@ -1,15 +1,18 @@
-
+/*
+  The Agency class keeps agenct information.
+  It has an static counter that counts created object number and assigns id.
+*/
 
 public class Agency{
 
   private int id;
   private String name;
   private Address address;
-  private String phone;
+  private Phone phone;
 
   private static int autoincrement = 1;
 
-  public Agency(String name, Address address, String phone){
+  public Agency(String name, Address address, Phone phone){
 
     this.name = name;
     this.address = address;
@@ -26,14 +29,14 @@ public class Agency{
   public Address getAddress(){
     return this.address;
   }
-  public String getPhone(){
+  public Phone getPhone(){
     return this.phone;
   }
 
   @Override
   public String toString(){
 
-    return "Name: " + this.name + " " + this.address + " Phone: " + this.phone;  
+    return String.format("%-5d %-20s %-27s %-13s",this.id, this.name, this.address, this.phone);
   }
 
 }
